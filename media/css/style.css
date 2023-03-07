@@ -1,0 +1,13 @@
+body{
+    background: #ff0;
+}
+
+.aprovado{
+    color:#fff;
+    background: #00f;
+}
+
+.reprovado{
+    background: #f00;
+    color:#fff;
+}
