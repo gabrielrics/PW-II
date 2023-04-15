@@ -1,0 +1,19 @@
+Nome do banco de dados: Sala
+
+CREATE table Aluno(
+id INT AUTO_INCREMENT PRIMARY KEY,
+Nome varchar(250),
+Turma varchar(110),
+Idade int,
+email varchar(250)
+);
+
+
+insert into tbContato values(null,'João','joao@gmail.com','assunto do joao','mensagem do joao');
+insert into tbContato values(null,'Maria','maria@gmail.com','assunto da maria','mensagem da maria');
+insert into tbContato values(null,'Ana','ana@gmail.com','assunto da ana','mensagem da ana');
+
+INSERT INTO aluno VALUES (null,'Gabriel','2 DS',18,'gabriel@gmail.com');
+INSERT INTO aluno VALUES (null,'Henrique','3 Cozinha',32,'henrique@gmail.com');
+INSERT INTO aluno VALUES (null,'Gustavo','1 Nutrição',15,'Gustavo@gmail.com');
+INSERT INTO aluno VALUES (null,'Thiago','3 DS',38,'thiago@gmail.com');
