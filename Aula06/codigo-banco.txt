@@ -3,9 +3,9 @@ Nome do banco de dados: Sala
 CREATE table Aluno(
 id INT AUTO_INCREMENT PRIMARY KEY,
 Nome varchar(250),
-Turma varchar(110),
-Idade int,
-email varchar(250)
+Email varchar(110),
+Assunto varchar(230),
+Mensagem varchar(250)
 );
 
 

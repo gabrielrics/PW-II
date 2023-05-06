@@ -29,12 +29,13 @@
                 $stmt ->execute();
                 
                 while($row = $stmt ->fetch(PDO::FETCH_BOTH)){
-                    <div echo "<tr class='celula'>">;
-                      echo "<td> $row[0] </td>";						
+                    echo "<tr class='celula'>";
+                        echo "<td> $row[0] </td>";						
                         echo "<td> $row[1] </td>";						
                         echo "<td> $row[2] </td>";						
                         echo "<td> $row[3] </td>";											
-                        echo "<td> $row[4] </td>";					
+                        echo "<td> $row[4] </td>";
+                        					
                     echo "</tr>";
                 }	
             ?>
